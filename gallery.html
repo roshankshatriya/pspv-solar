@@ -8,6 +8,9 @@
         <!-- Stylesheets -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css"/>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    
     
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -79,7 +82,7 @@
                                     <ul class="navigation clearfix">
                                         <li class="current"><a href="index.html">Home</a></li>
                                         <li><a href="about.html">About Us</a></li>
-                                        <li><a href="#">Products</a>
+                                        <li><a href="product.html">Products</a>
                                         </li>
                                         <li><a href="#">Services</a>
                                         </li>
@@ -123,12 +126,12 @@
                         
                         <div class="navbar-collapse collapse clearfix">
                             <ul class="navigation clearfix">
-                                <li class="current"><a href="#">Home</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Products</a></li>
+                                <li class="current"><a href="/">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="product.html">Products</a></li>
                                 <li><a href="#">Services</a></li>
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </nav><!-- Main Menu End-->
@@ -151,51 +154,33 @@
     <!--End Page title-->
 
     <!-- Gallery Section -->
-  <div class="container py-5">
-    <div class="row g-4">
-      <!-- Row 1 -->
-      <div class="col-md-4 align-center">
-        <img src="images/products/Custom-build.webp" class="img-fluid   rounded mx-auto gallery-image" data-bs-toggle="modal" data-bs-target="#lightboxModal" alt="Image 1">
-      </div>
-      <div class="col-md-4">
-        <img src="images/products/Custom-build.webp" class="img-fluid  rounded  gallery-image" data-bs-toggle="modal" data-bs-target="#lightboxModal" alt="Image 2">
-      </div>
-      <div class="col-md-4">
-        <img src="images/products/Custom-build.webp" class="img-fluid  rounded  gallery-image" data-bs-toggle="modal" data-bs-target="#lightboxModal" alt="Image 2">
-      </div>
-      <div class="col-md-4">
-        <img src="images/products/Custom-build.webp" class="img-fluid  rounded  gallery-image" data-bs-toggle="modal" data-bs-target="#lightboxModal" alt="Image 3">
-      </div>
-      <!-- Row 2 -->
-      <div class="col-md-4">
-        <img src="images/products/Custom-build.webp" class="img-fluid  rounded  gallery-image" data-bs-toggle="modal" data-bs-target="#lightboxModal" alt="Image 4">
-      </div>
-      <div class="col-md-4">
-        <img src="images/products/Custom-build.webp" class="img-fluid  rounded  gallery-image" data-bs-toggle="modal" data-bs-target="#lightboxModal" alt="Image 4">
-      </div>
-      <div class="col-md-4">
-        <img src="images/products/Custom-build.webp" class="img-fluid  rounded  gallery-image" data-bs-toggle="modal" data-bs-target="#lightboxModal" alt="Image 5">
-      </div>
-      <div class="col-md-4">
-        <img src="images/products/Custom-build.webp" class="img-fluid  rounded  gallery-image" data-bs-toggle="modal" data-bs-target="#lightboxModal" alt="Image 6">
-      </div>
-      <div class="col-md-4">
-        <img src="images/products/Custom-build.webp" class="img-fluid  rounded  gallery-image" data-bs-toggle="modal" data-bs-target="#lightboxModal" alt="Image 6">
-      </div>
-    </div>
-  </div>
-
-  <!-- Lightbox Modal -->
-<div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-body">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          <img src="" id="lightboxImage" class="img-fluid w-100" alt="Lightbox Image">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-sm-3">
+                <a href="/images/Consulting-Services/Field Eng/field_engineering.jpg" data-lightbox="media-coverage">
+                    <img src="/images/Consulting-Services/Field Eng/field_engineering.jpg" class="img-thumbnail" alt="Field Engineering 1">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="/images/Consulting-Services/Field Eng/field_engineering.jpg" data-lightbox="media-coverage">
+                    <img src="/images/Consulting-Services/Field Eng/field_engineering.jpg" class="img-thumbnail" alt="Field Engineering 1">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="/images/Consulting-Services/Field Eng/field_engineering.jpg" data-lightbox="media-coverage">
+                    <img src="/images/Consulting-Services/Field Eng/field_engineering.jpg" class="img-thumbnail" alt="Field Engineering 1">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a href="/images/Consulting-Services/Field Eng/field_engineering.jpg" data-lightbox="media-coverage">
+                    <img src="/images/Consulting-Services/Field Eng/field_engineering.jpg" class="img-thumbnail" alt="Field Engineering 1">
+                </a>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+    
+
+  
 
   <!--Main Footer-->
   <footer class="main-footer">
@@ -252,6 +237,7 @@
                         </div>
                     </div>
                 </div>
+
  
                 <!--Footer Column-->
                 <div class="footer-column col-md-4 col-sm-12 col-xs-12">
@@ -302,19 +288,6 @@
 <!--End Main Footer-->
 
 
-  <!-- Add this script to load the selected image into the modal -->
-    <script>
-        const galleryImages = document.querySelectorAll('.gallery-image');
-        const lightboxImage = document.getElementById('lightboxImage');
-    
-        galleryImages.forEach(image => {
-        image.addEventListener('click', (event) => {
-            const imageUrl = event.target.getAttribute('data-bs-img');
-            lightboxImage.setAttribute('src', imageUrl);
-        });
-        });
-    </script>
-
   <!--Scroll to top-->
   <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-angle-up"></span></div>
 
@@ -331,6 +304,18 @@
   <script src="js/wow.js"></script>
   <script src="js/main-slider-script.js"></script>
   <script src="js/script.js"></script>
+
+  <script>
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    });
+</script>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
 
   
