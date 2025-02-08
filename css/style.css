@@ -8926,3 +8926,9 @@ div#rev_slider_two_forcefullwidth {
 .spacer{
 	margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+	.main-menu{
+		position: absolute;
+	}
+}
