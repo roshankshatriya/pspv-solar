@@ -961,11 +961,19 @@
 	.tp-caption {
 		display: flex !important;
 		max-width: 100% !important;
+		justify-content: center;
 	}
 
 	a.theme-btn.btn-style-one {
 		padding: 14px 25px !important;
 	}
+	.overlay-box1 {
+		width: 100%; /* Full width (cover the whole page) */
+		padding: 10px 30px;
+	  }
+	  .services-section {
+        padding: 50px 10px 30px !important;
+    }
 	
 }
 
