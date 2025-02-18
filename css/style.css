@@ -8965,7 +8965,14 @@ div#rev_slider_two_forcefullwidth {
 }
 .popup-box h2 {
 	margin: 10px 0;
+	font-size: 28px;
+	font-weight: 600
+}
+.popup-box h3 {
+	margin: 10px 0;
+	padding-top: 10px;
 	font-size: 22px;
+	font-weight: 500
 }
 .popup-box p {
 	font-size: 16px;
@@ -8974,7 +8981,7 @@ div#rev_slider_two_forcefullwidth {
 .popup-box .cta-btn {
 	display: inline-block;
 	margin-top: 15px;
-	padding: 20px 20px;
+	padding: 10px 20px;
 	background: #ff5733;
 	color: white;
 	text-decoration: none;
